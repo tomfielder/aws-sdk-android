@@ -156,7 +156,7 @@ public class TransferUtility {
         }
     }
 
-    private final AmazonS3 s3;
+    public AmazonS3 s3;
     private final String defaultBucket;
     private final TransferUtilityOptions transferUtilityOptions;
 
